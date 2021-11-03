@@ -1,0 +1,160 @@
+#video {
+  padding-top: 348px;
+  justify-content: center;
+}
+.videocol {
+  background-image: url("../Images//videoimg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 531px;
+  background-position: center;
+  text-align: center;
+  padding-top: 150px;
+  width: 944px;
+}
+.learnhow {
+  width: 200px;
+  height: 65px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  color: #4ba87d;
+  border: none;
+  font-weight: 900;
+  font-size: 2.1rem;
+}
+.learnhow:hover {
+  color: #4ba87d;
+  background-color: white;
+}
+
+.videoh1 {
+  color: white;
+  font-size: 6rem;
+  font-weight: 900;
+
+  font-family: "Playfair Display", serif;
+}
+@media only screen and (max-width: 1180px) {
+  .videoh1 {
+    font-size: 4.5rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .videoh1 {
+    font-size: 4rem;
+  }
+  .videocol {
+    width: 844px;
+    height: 432px;
+  }
+  .learnhow {
+    width: 180px;
+    height: 55px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .videocol {
+    width: 844px;
+  }
+}
+@media only screen and (max-width: 855px) {
+  .videocol {
+    width: 644px;
+    height: 432px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .videoh1 {
+    font-size: 3.8rem;
+    line-height: 58px;
+  }
+  .learnhow {
+    width: 132px;
+    height: 42px;
+    font-size: 1.3rem;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  #video {
+    padding-top: 180px;
+  }
+  .videocol {
+    width: 644px;
+    height: 432px;
+  }
+  .learnhow {
+    width: 160px;
+    height: 40px;
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .videocol {
+    width: 544px;
+    height: 332px;
+    padding-top: 100px;
+  }
+  .learnhow {
+    width: 140px;
+    height: 30px;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 570px){
+.videocol{
+  width: 444px;
+  height: 332pxs;
+}
+}
+
+@media only screen and (max-width: 545px) {
+  .videocol {
+    width: 444px;
+    height: 302px;
+  }
+}
+@media only screen and (max-width: 445px) {
+  .videocol {
+    padding-top: 80px;
+    width: 384px;
+  }
+  .videoh1 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 385px) {
+  .videocol {
+    width: 304px;
+    height: 202px;
+    padding-top: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #video {
+    padding-top: 300px;
+  }
+  .videoh1 {
+    font-size: 1.8rem;
+    font-weight: 900;
+    width: 265px;
+    line-height: 29px;
+  }
+  .videoimg {
+    width: 304px;
+    height: 202px;
+  }
+  .learnhow {
+    width: 120px;
+    height: 30px;
+    font-size: 1.4rem;
+  }
+}
