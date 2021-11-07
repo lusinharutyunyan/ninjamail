@@ -1,0 +1,33 @@
+.footermenu {
+  padding-top: 79px;
+  padding-left: 20px;
+}
+.nav-item {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 22px;
+}
+.footer {
+  padding: 0px 150px 0px 150px;
+}
+.footerlogo {
+  padding-top: 73px;
+}
+.logoimg {
+  width: 197px;
+  height: 60px;
+}
+.divider {
+  margin-top: 63px;
+  margin-bottom: 43px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1088px;
+  height: 2px;
+  border-top: 3px solid #dbdbdb;
+}
+
+.footertxt {
+  padding-top: 39px;
+  padding-bottom: 50px;
+}

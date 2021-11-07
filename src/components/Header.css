@@ -7,7 +7,6 @@ html {
   border: none;
   padding: 10px 20px;
   letter-spacing: 1.27px;
-
   border: none;
   font-size: 1.7rem;
   font-weight: 900;
@@ -82,7 +81,7 @@ h1 {
   padding-top: 10px;
 }
 .headertxt {
-  padding-top: 20px;
+ 
   padding-left: 60px;
 }
 .btns {
@@ -126,7 +125,7 @@ h1 {
     font-size: 1.2rem;
   }
   .headertxt {
-    padding-top: 80px;
+   
     padding-left: 30px;
   }
   #whitebtn {
@@ -151,9 +150,7 @@ h1 {
   .btns {
     padding-top: 20px;
   }
-  .headertxt {
-    padding-top: 50px;
-  }
+ 
 }
 @media only screen and (max-width: 944px) {
   a {
@@ -169,9 +166,7 @@ h1 {
   .btns {
     padding-top: 20px;
   }
-  .headertxt {
-    padding-top: 50px;
-  }
+
 }
 @media only screen and (max-width: 1145px) {
   a {
@@ -188,9 +183,7 @@ h1 {
   .btns {
     padding-top: 20px;
   }
-  .headertxt {
-    padding-top: 50px;
-  }
+
 }
 @media only screen and (max-width: 1145px) {
   .signupbtn {
@@ -211,9 +204,7 @@ h1 {
   .btns {
     padding-top: 20px;
   }
-  .headertxt {
-    padding-top: 50px;
-  }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -227,12 +218,9 @@ h1 {
   h1 {
     font-size: 3.6rem;
   }
-  .headertxt {
-    padding-top: 0px;
-    margin-top: -10px;
-  }
+ 
   .headerp {
-    margin-top: 290px;
+    margin-top: 410px;
     font-size: 1.4rem;
   }
   #greenbtn {
@@ -287,10 +275,6 @@ h1 {
     width: 110px;
   }
 
-  .headertxt {
-    padding: 0px;
-    margin-top: -55px;
-  }
   .headerp {
     padding-top: 80px;
     margin-top: 55px;

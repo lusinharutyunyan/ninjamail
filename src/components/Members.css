@@ -1,0 +1,67 @@
+.member {
+  background-image: url("../Images/member.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 239px;
+  margin: 10px;
+}
+.member2 {
+  background-image: url("../Images//member2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 239px;
+  margin: 10px;
+}
+.member3 {
+  background-repeat: no-repeat;
+  height: 239px;
+  background-image: url("../Images/member3.png");
+  background-size: cover;
+  display: flex;
+  margin: 10px;
+}
+#memberh1 {
+  font-size: 44px;
+}
+h4 {
+  color: white;
+  font-size: 3.4rem;
+  font-weight: 900;
+}
+p {
+  font-size: 1.9rem;
+}
+.members {
+  align-self: flex-end;
+}
+.membersrow {
+  max-width: 1089px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 150px;
+}
+.button {
+  font-size: 2.1rem;
+  font-weight: 900;
+  width: 200px;
+  height: 65px;
+}
+.muted {
+  color: #4ba87d;
+  font-size: 2.1rem;
+  margin-left: 20px;
+  padding-top: 20px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+.email {
+  height: 65px;
+}
+.formrow {
+  width: 668px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}

@@ -1,296 +1,36 @@
-.girlpic {
-  width: 320px;
-  height: 282px;
+html {
+  font-size: 10px;
 }
-.firstcol {
+.infocard {
   width: 320px;
-  height: 196px;
-  background-color: white;
-  padding: 20px 20px;
 }
+.card-body {
+  padding: 20px;
+}
+.card-text {
+  font-size: 1.6rem;
+  line-height: 26px;
+}
+#infocard2 {
+  margin-top: 60px;
+}
+.col3 {
+  max-width: 365px;
+}
+.ptxt{
+  font-size: 1.9rem;
+}
+
 .info {
   padding-top: 100px;
+  padding-left: 30px;
+
 }
-.longtxt {
-  font-weight: 500;
-  font-size: 1.6rem;
-  line-height: 26px;
-}
-.shorttxt {
-  height: 28px;
-  font-size: 1.6rem;
-  font-weight: 800;
-  line-height: 19px;
-}
-.img-col1 {
-  padding-left: 120px;
-}
-.img-col2 {
-  margin-top: 80px;
-}
-.noimg-col3 {
-  margin-top: 150px;
-}
-.colh2 {
+.h2 {
   font-size: 4.4rem;
-  font-weight: 900;
-  line-height: 48px;
-  margin-left: -100px;
   font-family: "Playfair Display", serif;
+  font-weight: 900;
 }
-.txt2 {
-  margin-left: -100px;
-  font-size: 1.9rem;
-  line-height: 26px;
-  margin-top: 20px;
-}
-@media only screen and (max-width: 1340px) {
-  .img-col1 {
-    padding-left: 80px;
-  }
-  .noimg-col3 {
-    padding-left: 30px;
-  }
-}
-@media only screen and (max-width: 1215px) {
-  .noimg-col3 {
-    padding-left: 50px;
-  }
-  .img-col1 {
-    padding-left: 50px;
-  }
-}
-@media only screen and (max-width: 1140px) {
-  .img-col1 {
-    padding-left: 30px;
-  }
-  .noimg-col3 {
-    padding-left: 80px;
-  }
-}
-@media only screen and (max-width: 1095px) {
-  .colh2 {
-    font-size: 3.5rem;
-  }
-  .txt2 {
-    font-size: 1.5rem;
-  }
-
-  .img-col2 {
-    padding-left: 70px;
-  }
-  .noimg-col3 {
-    padding-left: 220px;
-  }
-}
-@media only screen and (max-width: 998px) {
-  .girlpic {
-    width: 209px;
-    height: 185px;
-  }
-  .firstcol {
-    width: 209px;
-    height: 138px;
-  }
-  .longtxt {
-    font-size: 1.2rem;
-    line-height: 16px;
-  }
-  .img-col2 {
-    padding-left: 0px;
-  }
-  .noimg-col3 {
-    padding-left: 10px;
-  }
-}
-@media only screen and (max-width: 950px) {
-  .img-col2 {
-    padding-left: 0px;
-  }
-  .noimg-col3 {
-    padding-left: 40px;
-  }
-}
-@media only screen and (max-width: 840px) {
-  .noimg-col3 {
-    padding-left: 55px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .girlpic {
-    height: 188px;
-  }
-  .firstcol {
-    width: 209px;
-    height: 128px;
-  }
-  .longtxt {
-    width: 164px;
-    height: 79px;
-    font-weight: 500;
-    font-size: 1.2rem;
-    line-height: 16px;
-  }
-  .shorttxt {
-    width: 164px;
-    font-size: 1.2rem;
-    height: 18px;
-    line-height: 14px;
-    margin-top: -5px;
-  }
-  .img-col1 {
-    padding-left: 30px;
-  }
-  .colh2 {
-    font-size: 2.8rem;
-    line-height: 31px;
-
-    margin-left: -40px;
-  }
-  .img-col2 {
-    padding-left: 10px;
-  }
-
-  .txt2 {
-    width: 203px;
-    margin-left: -40px;
-    font-size: 1.2rem;
-    line-height: 18px;
-    font-weight: 500;
-  }
-  .noimg-col3 {
-    padding-left: 40px;
-  }
-}
-@media only screen and (max-width: 715px) {
-  .img-col1 {
-    padding-left: 20px;
-  }
-  .colh2 {
-    font-size: 2.5rem;
-  }
-  .img-col2 {
-    padding-left: 5px;
-  }
-  .noimg-col3 {
-    padding-left: 40px;
-  }
-}
-@media only screen and (max-width: 685px) {
-  .img-col1 {
-    padding-left: 15px;
-  }
-  .girlpic {
-    width: 189px;
-    height: 178px;
-  }
-  .firstcol {
-    width: 190px;
-  }
-  .img-col2 {
-    padding-left: 0px;
-  }
-  .noimg-col3 {
-    padding-left: 20px;
-  }
-  .colh2 {
-    font-size: 2.1rem;
-    line-height: 25px;
-  }
-}
-@media only screen and (max-width: 650px) {
-  .colh2 {
-    font-size: 2rem;
-    line-height: 25px;
-  }
-  .girlpic {
-    width: 169px;
-    height: 170px;
-  }
-  .firstcol {
-    width: 170px;
-    padding: 15px 10px;
-  }
-  .longtxt {
-    font-size: 1.1rem;
-  }
-}
-@media only screen and (max-width: 575px) {
-  .girlpic {
-    width: 300px;
-    height: 270px;
-  }
-  .firstcol {
-    width: 300px;
-    height: 190px;
-    padding: 20px 20px;
-  }
-  .longtxt {
-    font-size: 1.5rem;
-    line-height: 17px;
-    width: 300px;
-  }
-  .img-col1 {
-    padding-left: 20px;
-  }
-  .img-col2 {
-    padding-left: 130px;
-  }
-  .noimg-col3 {
-    margin-top: 30px;
-    padding-left: 160px;
-  }
-  .colh2 {
-    font-size: 2.4rem;
-  }
-}
-@media only screen and (max-width: 445px) {
-  .img-col2 {
-    padding-left: 80px;
-  }
-  .noimg-col3 {
-    padding-left: 90px;
-  }
-}
-@media only screen and (max-width: 390px) {
-  .girlpic {
-    width: 260px;
-    height: 230px;
-  }
-  .firstcol {
-    width: 260px;
-    padding: 20px 10px;
-    height: 140px;
-  }
-  .longtxt {
-    width: 240px;
-  }
-
-  .img-col2 {
-    padding-left: 52px;
-  }
-  .noimg-col3 {
-    padding-left: 75px;
-    margin-top: 60px;
-  }
-}
-@media only screen and (max-width: 355px) {
-}
-@media only screen and (max-width: 320px) {
-  .info {
-    padding-top: 130px;
-  }
-  .img-col1 {
-    padding-top: 150px;
-    padding-left: 20px;
-  }
-  .img-col2 {
-    padding-left: 45px;
-    margin-top: 30px;
-  }
-  .noimg-col3 {
-    padding-left: 75px;
-    margin-top: 30px;
-  }
+.col3div {
+  margin-top: 90px;
 }

@@ -14,7 +14,7 @@
 }
 .learnhow {
   width: 200px;
-  height: 65px;
+  height: 60px;
   margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
@@ -82,7 +82,7 @@
 
 @media only screen and (max-width: 780px) {
   #video {
-    padding-top: 180px;
+    padding-top: 120px;
   }
   .videocol {
     width: 644px;
@@ -109,11 +109,11 @@
   }
 }
 
-@media only screen and (max-width: 570px){
-.videocol{
-  width: 444px;
-  height: 332pxs;
-}
+@media only screen and (max-width: 570px) {
+  .videocol {
+    width: 444px;
+    height: 332pxs;
+  }
 }
 
 @media only screen and (max-width: 545px) {
