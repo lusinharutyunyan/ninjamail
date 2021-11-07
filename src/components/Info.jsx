@@ -36,7 +36,7 @@ export default function Info() {
         </Card>
       </Col>
       <Col sm={4} className='col3'>
-        <div className="col3div">
+        <div className='col3div'>
           <h2 className='h2'>
             The source for proven, engaging email campaigns
           </h2>
