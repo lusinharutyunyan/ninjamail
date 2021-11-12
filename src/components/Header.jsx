@@ -1,14 +1,12 @@
 import React from "react";
-
-import Headerimg from "../Images/headerimg.png";
 import "./Header.css";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Row, Col, Button } from "react-bootstrap";
 
 export default function Header() {
   return (
     <Row>
       <div className='headertxt imgrow'>
-        <h1 id="headerh1">
+        <h1 id='headerh1'>
           Create Stunning
           <br></br> Email Campaigns
         </h1>

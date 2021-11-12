@@ -10,7 +10,7 @@ export default function Members() {
     <Row className='membersrow'>
       <Row className='allmembers'>
         <Col className='member' sm={4}>
-          <img src={Member} className='memberimg'></img>
+          <img src={Member} className='memberimg' alt='img'></img>
           <div className='members'>
             <h4>Frankie</h4>
             <p style={{ color: "white" }}>Member since 2012</p>
