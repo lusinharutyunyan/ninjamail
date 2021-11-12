@@ -1,6 +1,5 @@
 import React from "react";
-import Videoimg from "../Images/videoimg.png";
-import { Row, Button, Col } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import "./Video.css";
 
 export default function Video() {

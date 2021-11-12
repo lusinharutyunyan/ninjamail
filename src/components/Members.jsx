@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Row,
-  Col,
-  Form,
-  Button,
-  InputGroup,
-  FormControl,
-} from "react-bootstrap";
+import { Row, Col, Form, Button, InputGroup } from "react-bootstrap";
 import "./Members.css";
 import Member from "../Images/member.png";
 import Member2 from "../Images/member2.png";

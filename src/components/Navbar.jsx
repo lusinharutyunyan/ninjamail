@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button, Nav } from "react-bootstrap";
+import { Row, Col, Button, Nav } from "react-bootstrap";
 import NinjamailLogo from "../Images/Ninjamaillogo.png";
 import "./Header.css";
 
