@@ -1,26 +1,11 @@
 .member {
-  background-image: url("../Images/member.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  height: 239px;
-  margin: 10px;
+  position: relative;
 }
 .member2 {
-  background-image: url("../Images//member2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  height: 239px;
-  margin: 10px;
+  position: relative;
 }
 .member3 {
-  background-repeat: no-repeat;
-  height: 239px;
-  background-image: url("../Images/member3.png");
-  background-size: cover;
-  display: flex;
-  margin: 10px;
+  position: relative;
 }
 #memberh1 {
   font-size: 44px;
@@ -34,13 +19,23 @@ p {
   font-size: 1.9rem;
 }
 .members {
-  align-self: flex-end;
+  top: 65%;
+  position: absolute;
+}
+.memberimg {
+  width: 100%;
 }
 .membersrow {
   max-width: 1089px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 150px;
+}
+#join {
+  background-color: #4ba87d;
+  color: white;
+  border: none;
+  margin-left: 20px;
 }
 .button {
   font-size: 2.1rem;
@@ -51,17 +46,144 @@ p {
 .muted {
   color: #4ba87d;
   font-size: 2.1rem;
-  margin-left: 20px;
-  padding-top: 20px;
+  margin-left: 10px;
+  padding-top: 10px;
   letter-spacing: 1px;
-  margin-top: 20px;
 }
 .email {
   height: 65px;
+  width: 420px;
+  font-size: 21px;
+  line-height: 25px;
 }
 .formrow {
   width: 668px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 30px;
+}
+
+@media only screen and (max-width: 960px) {
+  h4 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .members {
+    top: 62%;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .members {
+    top: 54%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .members {
+    top: 50%;
+    left: 10%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .allmembers {
+    text-align: center;
+  }
+  .member {
+    margin: 15px;
+  }
+  .member2 {
+    margin: 15px;
+  }
+  .member3 {
+    margin: 15px;
+  }
+  .membersrow {
+    margin-top: 60px;
+  }
+  .members {
+    top: 70%;
+    left: 10%;
+    text-align: start;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #join {
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 444px) {
+  #email {
+    height: 52px;
+    width: 233px;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+  #join {
+    height: 52px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .muted {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  h4 {
+    font-size: 2.4rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #memberh1 {
+    font-size: 3.2rem;
+    line-height: 36px;
+    padding-top: 40px;
+  }
+  .membersrow {
+    margin-top: 70px;
+  }
+  .formrow {
+    width: 233px;
+  }
+  .muted {
+    font-size: 12px;
+    text-align: center;
+  }
+  #join {
+    margin-left: 0;
+    width: 144px;
+    font-size: 13px;
+    height: 42px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  #email {
+    height: 42px;
+    width: 233px;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+  .member3 {
+    margin: 10px;
+  }
+  .member2 {
+    margin: 10px;
+  }
+  .member {
+    margin: 10px;
+  }
+  .members {
+    top: 65%;
+    left: 5%;
+  }
+  .memberimg {
+    width: 100%;
+  }
 }

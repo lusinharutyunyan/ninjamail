@@ -1,5 +1,5 @@
 #video {
-  padding-top: 348px;
+  padding-top: 248px;
   justify-content: center;
 }
 .videocol {
@@ -82,7 +82,7 @@
 
 @media only screen and (max-width: 780px) {
   #video {
-    padding-top: 360px;
+    padding-top: 150px;
   }
   .videocol {
     width: 644px;
@@ -122,6 +122,15 @@
     height: 302px;
   }
 }
+@media only screen and (max-width: 465px) {
+  .videocol {
+    width: 404px;
+    height: 282px;
+  }
+  .videoh1 {
+    font-size: 2rem;
+  }
+}
 @media only screen and (max-width: 445px) {
   .videocol {
     padding-top: 80px;
@@ -140,7 +149,7 @@
 }
 @media only screen and (max-width: 320px) {
   #video {
-    padding-top: 300px;
+    padding-top: 70px;
   }
   .videoh1 {
     font-size: 1.8rem;

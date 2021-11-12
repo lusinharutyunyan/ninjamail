@@ -14,19 +14,19 @@ export default function Brands() {
         All the best <br></br> already use us.
       </h1>
       <Row className='brandsrow'>
-        <Col>
+        <Col lg={2} xs={6} md={2} className='brand'>
           <img src={Logo5} alt='logo'></img>
         </Col>
-        <Col>
+        <Col lg={2} xs={6} md={2} className='brand'>
           <img src={Logo4} alt='logo'></img>
         </Col>
-        <Col>
+        <Col lg={2} xs={6} md={2} className='brand'>
           <img src={Logo3} alt='logo'></img>
         </Col>
-        <Col>
+        <Col lg={2} xs={6} md={2} className='brand'>
           <img src={Logo2} alt='logo'></img>
         </Col>
-        <Col>
+        <Col lg={2} xs={12} md={2} className='brand'>
           <img src={Logo1} alt='logo'></img>
         </Col>
       </Row>

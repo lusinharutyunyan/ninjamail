@@ -68,7 +68,6 @@ h1 {
   font-size: 5.9rem;
 }
 .navrow {
-  height: 102px;
   align-items: center;
 }
 .logo {
@@ -81,8 +80,12 @@ h1 {
   padding-top: 10px;
 }
 .headertxt {
- 
   padding-left: 60px;
+  padding-left: 60px;
+  padding-bottom: 140px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 .btns {
   padding-top: 10px;
@@ -100,10 +103,11 @@ h1 {
   .signupbtn {
     background-color: #4ba87d;
     border: none;
-    width: 100px;
     font-size: 1.1rem;
   }
-
+  .headertxt {
+    padding-bottom: 20px;
+  }
   .logo {
     width: 173px;
     height: 53px;
@@ -125,12 +129,9 @@ h1 {
     font-size: 1.2rem;
   }
   .headertxt {
-   
     padding-left: 30px;
   }
-  #whitebtn {
-    margin-left: 0px;
-  }
+
   .imgrow {
     margin-right: 50px;
   }
@@ -150,7 +151,6 @@ h1 {
   .btns {
     padding-top: 20px;
   }
- 
 }
 @media only screen and (max-width: 944px) {
   a {
@@ -166,7 +166,6 @@ h1 {
   .btns {
     padding-top: 20px;
   }
-
 }
 @media only screen and (max-width: 1145px) {
   a {
@@ -183,12 +182,10 @@ h1 {
   .btns {
     padding-top: 20px;
   }
-
 }
 @media only screen and (max-width: 1145px) {
   .signupbtn {
-    padding: 8px;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   a {
     font-size: 0.9rem;
@@ -204,7 +201,6 @@ h1 {
   .btns {
     padding-top: 20px;
   }
-
 }
 
 @media only screen and (max-width: 767px) {
@@ -218,13 +214,16 @@ h1 {
   h1 {
     font-size: 3.6rem;
   }
- 
+
   .headerp {
-    margin-top: 410px;
+    margin-top: 360px;
     font-size: 1.4rem;
   }
   #greenbtn {
     margin-right: 10px;
+  }
+  #whitebtn {
+    margin-left: 10px;
   }
   .headerbtns {
     width: 143px;
@@ -242,6 +241,11 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 345px) {
+  #whitebtn {
+    margin-left: 0;
+  }
+}
 @media only screen and (max-width: 333px) {
   .headerbtns {
     width: 120px;
@@ -259,16 +263,15 @@ h1 {
     height: 42px;
     margin-top: 30px;
   }
-  .navrow {
-    width: 320px;
-  }
+
   .header-row {
     background-position: center;
     background-size: 100% auto;
   }
   .signupbtn {
-    margin-left: 20px;
     margin-top: 15px;
+    font-size: 0.9rem;
+    padding: 9px;
   }
 
   .nav {
@@ -276,17 +279,21 @@ h1 {
   }
 
   .headerp {
-    padding-top: 80px;
-    margin-top: 55px;
+    margin-top: 160px;
     padding-left: 10px;
   }
 
   .imgrow {
-    height: 169px;
-    background-size: cover;
     margin-right: 0px;
+    padding-left: 0px;
   }
   .btns {
     padding-left: 10px;
+    padding-top: 0px;
+  }
+
+  #headerh1 {
+    margin-top: 0px;
+    font-size: 34px;
   }
 }

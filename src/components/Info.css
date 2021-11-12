@@ -66,10 +66,11 @@ html {
   }
   .info {
     padding-left: 10px;
-    padding-top: 240px;
+    padding-top: 100px;
   }
   .col3 {
-    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .ptxt {
     font-size: 14px;
@@ -80,18 +81,23 @@ html {
   .infocard {
     width: auto;
   }
+  .card-text {
+    font-size: 1.4rem;
+    line-height: 18px;
+  }
 }
 @media only screen and (max-width: 575px) {
   .infocard {
     width: 249px;
-    margin-left: 20px;
+    margin-left: 0;
   }
   #infocard2 {
     margin-left: auto;
-    margin-right: 20px;
+    margin-right: 0;
+    margin-top: 50px;
   }
-  .col3 {
-    margin-left: 20px;
+  .col3div{
+    margin-top: 50px;
   }
 }
 @media only screen and (max-width: 320px) {
@@ -99,8 +105,19 @@ html {
     width: 209px;
   }
   .col3div {
-    max-width: 270px;
     margin-left: 0px;
     padding-left: 0px;
+    margin-top: 50px;
+  }
+  #infocard2 {
+    margin-top: 20px;
+  }
+
+  .card-text {
+    font-size: 1.2rem;
+    line-height: 16px;
+  }
+  .info {
+    padding-top: 70px;
   }
 }

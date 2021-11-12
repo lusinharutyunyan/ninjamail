@@ -21,10 +21,10 @@ function App() {
         <Header />
         <Video />
         <Info />
-        {/* <Members />
+        <Members />
         <Brands />
         <Getstarted />
-        <Footer /> */}
+        <Footer />
       </div>
     </Container>
   );
